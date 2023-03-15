@@ -1,3 +1,5 @@
+/* *{margin: 0px; padding: 0px;} */
+
 #wrapper {
     display: flex;
     justify-content: center;
@@ -15,10 +17,6 @@
     background-color: white;
 }
 
-#right {
-    width: 440px;
-    background-color: aqua;
-}
 
 #left {
     width: 120px;
@@ -98,12 +96,18 @@
 #menu-one{
     display: flex;
 }
+#menu-two{
+    display: flex;
+}
+#menu-tree{
+    display: flex;
+}
 
 .user{
-    background-color: red;
+    background-color: rgba(210, 40, 40, 0.684);
     border: none;
     border-radius: 20px;
-    width: 75px;
+    width: 79px;
     height: 27px;
     position: relative;
     margin-top: 15px;
@@ -111,10 +115,13 @@
     color: rgba(255, 255, 255, 0.74);
 }
 .time-two{
+    display: flex;
     position: relative;
-    top: 3px;
-    margin-left: 10px;
+    font-size: 15px;
+    margin-left: 18px;
 }
+
+
 #center-img{
     display: flex;
     flex-direction: column;
@@ -125,6 +132,7 @@
     justify-content: space-around;
         
 }
+
 .hinh-one{
     /* width: 100%; */
     border-radius: 10px;
@@ -146,6 +154,7 @@
     color: rgba(255, 255, 255, 0.723);
     border: none;
     font-size: 14px;
+    border-radius: 5px;
 }
 #img-two{
     display: flex;
@@ -156,6 +165,24 @@
     position: relative;
     margin-top: 25px;
     margin-left: 20px;
+}
+.mic_color1{
+    display: flex;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 6px;
+    border-radius: 5px;
+    
+}
+.online1{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 6px;
+    background-color: rgba(10, 10, 10, 0.407);
+    color: rgba(255, 255, 255, 0.723);
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
 }
 .hinh-two{
     border-radius: 10px;
@@ -180,5 +207,66 @@
     justify-content: space-around;
     width: 200px;
 }
-
-
+#right {
+    width: 440px;
+    background-color: aqua;
+}
+#right-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#right-content-left{
+    display: flex;
+    font-size: 13px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+#right-content-right{
+    display: flex;
+    position: relative;
+    margin-top: 33px;
+    margin-right: 25px;
+}
+#add{
+    
+    border-radius: 5px;
+    border-color: rgb(236, 86, 86);
+    background-color: white;
+    color: red;
+}
+.user-online-left{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-left: 28px;
+}
+.user-online-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 7%;
+    margin-top: 20px;
+}
+.user-online{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#chat{
+    display: flex;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 28px;
+}
+#right-footer{
+    display: flex;
+    flex-direction: column;
+}
+#user-chat{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28px;
+    margin-top: 18px;
+}
